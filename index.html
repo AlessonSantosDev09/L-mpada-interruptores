@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interruptores e Lâmpadas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Interruptores e Lâmpadas</h1>
+    
+    <div class="interruptores">
+        <div>
+            <button id="interruptorA" onclick="ligarA()">Interruptor A</button>
+            <span id="statusA">Desligado</span>
+        </div>
+        <div>
+            <button id="interruptorB" onclick="ligarB()">Interruptor B</button>
+            <span id="statusB">Desligado</span>
+        </div>
+        <div>
+            <button id="interruptorC" onclick="ligarC()">Interruptor C</button>
+            <span id="statusC">Desligado</span>
+        </div>
+    </div>
+
+    <button onclick="irParaSala()">Ir para a sala das lâmpadas</button>
+
+    <div class="resultado" id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.interruptores {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.interruptores div {
+    margin: 0 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.resultado {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
